@@ -12,7 +12,8 @@
 		B235100F2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */; };
 		B23510102B8D1F820081F0E4 /* SwiftUtilityPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = B23510022B8D1F810081F0E4 /* SwiftUtilityPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B235101A2B8D20040081F0E4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23510192B8D20040081F0E4 /* Validation.swift */; };
-		B2FD30452B8E6603001272BD /* PodDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD30442B8E6603001272BD /* PodDemoView.swift */; };
+		B2FD30472B8E7262001272BD /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD30462B8E7262001272BD /* StringUtils.swift */; };
+		B2FD30492B8E7318001272BD /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD30482B8E7318001272BD /* DateUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,8 @@
 		B23510092B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUtilityPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityPodDemoTests.swift; sourceTree = "<group>"; };
 		B23510192B8D20040081F0E4 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		B2FD30442B8E6603001272BD /* PodDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodDemoView.swift; sourceTree = "<group>"; };
+		B2FD30462B8E7262001272BD /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		B2FD30482B8E7318001272BD /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 				B23510022B8D1F810081F0E4 /* SwiftUtilityPodDemo.h */,
 				B23510032B8D1F810081F0E4 /* SwiftUtilityPodDemo.docc */,
 				B23510192B8D20040081F0E4 /* Validation.swift */,
-				B2FD30442B8E6603001272BD /* PodDemoView.swift */,
+				B2FD30462B8E7262001272BD /* StringUtils.swift */,
+				B2FD30482B8E7318001272BD /* DateUtils.swift */,
 			);
 			path = SwiftUtilityPodDemo;
 			sourceTree = "<group>";
@@ -201,8 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23510042B8D1F810081F0E4 /* SwiftUtilityPodDemo.docc in Sources */,
+				B2FD30492B8E7318001272BD /* DateUtils.swift in Sources */,
 				B235101A2B8D20040081F0E4 /* Validation.swift in Sources */,
-				B2FD30452B8E6603001272BD /* PodDemoView.swift in Sources */,
+				B2FD30472B8E7262001272BD /* StringUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
