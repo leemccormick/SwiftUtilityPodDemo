@@ -12,6 +12,7 @@
 		B235100F2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */; };
 		B23510102B8D1F820081F0E4 /* SwiftUtilityPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = B23510022B8D1F810081F0E4 /* SwiftUtilityPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B235101A2B8D20040081F0E4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23510192B8D20040081F0E4 /* Validation.swift */; };
+		B2E58AA22B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */; };
 		B2F9E0442B8E91F700317855 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9E0432B8E91F700317855 /* StringUtils.swift */; };
 		B2F9E0462B8E92E900317855 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9E0452B8E92E900317855 /* DateUtils.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		B23510092B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUtilityPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityPodDemoTests.swift; sourceTree = "<group>"; };
 		B23510192B8D20040081F0E4 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUtilityPodDemoView.swift; sourceTree = "<group>"; };
 		B2F9E0432B8E91F700317855 /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = SwiftUtilityPodDemo/Helpers/StringUtils.swift; sourceTree = SOURCE_ROOT; };
 		B2F9E0452B8E92E900317855 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 		B23510012B8D1F810081F0E4 /* SwiftUtilityPodDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B2E58AA02B8FA78D00D80321 /* Views */,
 				B23510022B8D1F810081F0E4 /* SwiftUtilityPodDemo.h */,
 				B23510032B8D1F810081F0E4 /* SwiftUtilityPodDemo.docc */,
 				B2F9E0422B8E91D300317855 /* Helpers */,
@@ -90,6 +93,14 @@
 				B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */,
 			);
 			path = SwiftUtilityPodDemoTests;
+			sourceTree = "<group>";
+		};
+		B2E58AA02B8FA78D00D80321 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B2F9E0422B8E91D300317855 /* Helpers */ = {
@@ -215,6 +226,7 @@
 				B2F9E0462B8E92E900317855 /* DateUtils.swift in Sources */,
 				B23510042B8D1F810081F0E4 /* SwiftUtilityPodDemo.docc in Sources */,
 				B235101A2B8D20040081F0E4 /* Validation.swift in Sources */,
+				B2E58AA22B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
