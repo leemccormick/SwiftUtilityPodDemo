@@ -12,6 +12,8 @@
 		B235100F2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */; };
 		B23510102B8D1F820081F0E4 /* SwiftUtilityPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = B23510022B8D1F810081F0E4 /* SwiftUtilityPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B235101A2B8D20040081F0E4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23510192B8D20040081F0E4 /* Validation.swift */; };
+		B2C9B6FF2B8FB19500663F72 /* ErrorUtilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9B6FE2B8FB19500663F72 /* ErrorUtilView.swift */; };
+		B2C9B7012B8FB64600663F72 /* ThreeDotsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9B7002B8FB64600663F72 /* ThreeDotsLoadingView.swift */; };
 		B2E58AA22B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */; };
 		B2F9E0442B8E91F700317855 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9E0432B8E91F700317855 /* StringUtils.swift */; };
 		B2F9E0462B8E92E900317855 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9E0452B8E92E900317855 /* DateUtils.swift */; };
@@ -34,6 +36,8 @@
 		B23510092B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUtilityPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B235100E2B8D1F820081F0E4 /* SwiftUtilityPodDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUtilityPodDemoTests.swift; sourceTree = "<group>"; };
 		B23510192B8D20040081F0E4 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		B2C9B6FE2B8FB19500663F72 /* ErrorUtilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorUtilView.swift; sourceTree = "<group>"; };
+		B2C9B7002B8FB64600663F72 /* ThreeDotsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotsLoadingView.swift; sourceTree = "<group>"; };
 		B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIUtilityPodDemoView.swift; sourceTree = "<group>"; };
 		B2F9E0432B8E91F700317855 /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = SwiftUtilityPodDemo/Helpers/StringUtils.swift; sourceTree = SOURCE_ROOT; };
 		B2F9E0452B8E92E900317855 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				B2E58AA12B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift */,
+				B2C9B6FE2B8FB19500663F72 /* ErrorUtilView.swift */,
+				B2C9B7002B8FB64600663F72 /* ThreeDotsLoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F9E0442B8E91F700317855 /* StringUtils.swift in Sources */,
+				B2C9B6FF2B8FB19500663F72 /* ErrorUtilView.swift in Sources */,
 				B2F9E0462B8E92E900317855 /* DateUtils.swift in Sources */,
 				B23510042B8D1F810081F0E4 /* SwiftUtilityPodDemo.docc in Sources */,
 				B235101A2B8D20040081F0E4 /* Validation.swift in Sources */,
+				B2C9B7012B8FB64600663F72 /* ThreeDotsLoadingView.swift in Sources */,
 				B2E58AA22B8FA7AE00D80321 /* SwiftUIUtilityPodDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
