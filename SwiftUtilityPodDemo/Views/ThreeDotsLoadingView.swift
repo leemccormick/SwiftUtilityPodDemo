@@ -48,7 +48,3 @@ public struct ThreeDotsLoadingView: View {
         }
     }
 }
-
-#Preview {
-    ThreeDotsLoadingView(scale: 10)
-}

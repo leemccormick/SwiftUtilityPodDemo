@@ -41,7 +41,3 @@ public struct ErrorUtilView: View {
         .cornerRadius(10)
     }
 }
-
-#Preview {
-    ErrorUtilView(errorMessage: "Something wrong, please help Something wrong, please help kfjasdjfklasjdfkljassadfl;ksadf;lkasl;dfkls;dkf...")
-}
