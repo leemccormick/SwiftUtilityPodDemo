@@ -61,6 +61,18 @@ To use your CocoaPod in another project, you can add it to the project's Podfile
 
 ```pod install```
 
+### Published Pods
+
+<img width="400" hieght="350"  alt="0 0 3 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/7204b8cb-a9e9-48d6-9589-719e6f27271e">
+<img width="400" hieght="350"  alt="0 0 5 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/749c7397-c272-42e8-be0f-e4db272a8824">
+<img width="400" hieght="350"  alt="0 0 6 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/c6b55738-3ef5-4493-b72d-096c3d714229">
+<img width="400" hieght="350"  alt="0 0 8 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/0187d71c-d8f5-4d50-b5fb-497bbfcdf3d8">
+
+### Installed Pods
+
+<img width="400" hieght="350"  alt="0 0 3"  src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/cbebd2ca-4065-4ffb-a88d-57b1c9079e1e">
+<img width="400" hieght="350"  alt="0 0 5"  src="Pod Published" https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/f4625c36-2fc2-4624-8ced-f822610c209c">
+
 ## Sources
  - https://guides.cocoapods.org/using/faq.html
  - https://medium.com/@jeantimex/create-your-own-cocoapods-library-da589d5cd270
