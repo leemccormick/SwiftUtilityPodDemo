@@ -61,17 +61,63 @@ To use your CocoaPod in another project, you can add it to the project's Podfile
 
 ```pod install```
 
+### Command lines
+###### Create a new CocoaPod library with the specified name.
+
+```pod lib create YourPodName```
+
+###### This command registers your Pod with the CocoaPods trunk repository 
+
+```pod trunk register```
+
+###### Pushes your Podspec file (YourPodName.podspec) to the CocoaPods trunk repository. This makes your Pod publicly available for others to use.
+
+```pod trunk push YourPodName.podspec```
+
+###### Creates a Git tag named "0.0.2" with a descriptive message about the changes in this version. This helps track versions in your Git repository.
+
+```git tag -a 0.0.2 -m "Description of changes in this version"```
+
+###### Pushes the newly created tag to the remote repository on GitHub or your chosen platform.
+
+```git push origin master```
+```git push --tags```
+
+###### Validates your Podspec file against CocoaPods standards and checks for any errors or warnings. This helps ensure your Pod is well-formatted and adheres to CocoaPods guidelines.
+
+```pod spec lint```
+
+###### Pushes your Podspec file to the CocoaPods trunk, even if there are warnings present. Use this with caution, as warnings might indicate potential issues with your Pod. Only use this if you understand and are willing to accept the risks involved.
+
+```pod trunk push SwiftUtilityPodDemo.podspec --allow-warnings```
+
+###### Pushes your Podspec file to the CocoaPods trunk, skipping import validation. This is **highly discouraged** as it can lead to compatibility issues with other Pods. Only use this option if you absolutely know what you are doing and understand the potential consequences.
+
+```pod trunk push SwiftUtilityPodDemo.podspec --allow-warnings --skip-import-validation```
+
+###### Add the local SwiftUtilityPodDemo repository to the project.
+
+```pod repo add SwiftUtilityPodDemo https://github.com/leemccormick/SwiftUtilityPodDemo```
+
+###### Updates the local CocoaPods spec repository to fetch the latest information about available Pods. This is optional but recommended to ensure you have the latest information about available Pods.
+
+```pod repo update```
+
+###### Downloads and installs the dependencies specified in your Podfile based on the information in the updated local CocoaPods spec repository.
+
+```pod install```
+
 ### Published Pods
 
-<img width="400" hieght="350"  alt="0 0 3 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/7204b8cb-a9e9-48d6-9589-719e6f27271e">
-<img width="400" hieght="350"  alt="0 0 5 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/749c7397-c272-42e8-be0f-e4db272a8824">
-<img width="400" hieght="350"  alt="0 0 6 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/c6b55738-3ef5-4493-b72d-096c3d714229">
-<img width="400" hieght="350"  alt="0 0 8 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/0187d71c-d8f5-4d50-b5fb-497bbfcdf3d8">
+<img width="400" hieght="400"  alt="0 0 3 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/7204b8cb-a9e9-48d6-9589-719e6f27271e">
+<img width="400" hieght="400"  alt="0 0 5 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/749c7397-c272-42e8-be0f-e4db272a8824">
+<img width="400" hieght="400"  alt="0 0 6 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/c6b55738-3ef5-4493-b72d-096c3d714229">
+<img width="400" hieght="400"  alt="0 0 8 Pod Published" src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/0187d71c-d8f5-4d50-b5fb-497bbfcdf3d8">
 
 ### Installed Pods
 
-<img width="400" hieght="350"  alt="0 0 3"  src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/cbebd2ca-4065-4ffb-a88d-57b1c9079e1e">
-<img width="400" hieght="350"  alt="0 0 5"  src="Pod Published" https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/f4625c36-2fc2-4624-8ced-f822610c209c">
+<img width="400" hieght="400"  alt="0 0 3"  src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/cbebd2ca-4065-4ffb-a88d-57b1c9079e1e">
+<img width="400" hieght="400"  alt="0 0 5"  src="https://github.com/leemccormick/SwiftUtilityPodDemo/assets/57606580/f4625c36-2fc2-4624-8ced-f822610c209c">
 
 ## Sources
  - https://guides.cocoapods.org/using/faq.html
